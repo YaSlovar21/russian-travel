@@ -1,0 +1,18 @@
+.place__website::before {
+    content: "URL ";
+    width: 100%;
+    text-decoration: none!important;
+    color: white;
+}
+.place__website {
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        display: none;
+    }
+}
