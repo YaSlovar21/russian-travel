@@ -1,14 +1,7 @@
 .cover__title {
-    position: absolute;
-    z-index: 1;
+
+    margin-bottom: 0;
     width: 560px;
-
-
-    margin: auto;
-    top: 20%;
-    left: 0;
-    right: 0;
-
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -19,9 +12,9 @@
     color: #FFFFFF;    
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .cover__title {
-        width: 90vw;
+        width: 90%;
 
         font-family: Inter;
         font-style: normal;
@@ -34,3 +27,10 @@
         color: #FFFFFF;
     }
 }
+
+@media screen and (max-width:450px){
+    .cover__title {
+            width: 250px;
+    }
+}
+

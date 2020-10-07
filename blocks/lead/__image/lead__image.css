@@ -9,7 +9,22 @@
     margin: 56px auto 0;
 }
 
-@media screen and (max-width: 768px) {
+.lead__image::after {
+    content: '';
+    position: absolute;
+    top: 4.3%;
+    left: 4.3%;
+    right: 4,3%;
+    width: 95%;
+    bottom: 45%;
+    background-image: url(../../../images/cart.svg);
+    z-index: 1;
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 927px) {
     .lead__image {
         width: 100%;
     }

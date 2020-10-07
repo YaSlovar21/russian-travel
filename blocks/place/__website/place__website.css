@@ -1,17 +1,33 @@
 .place__website::before {
-    content: "URL ";
+    content: "URL";
+    justify-self: center;
+    text-decoration: none;
+    border-bottom: 0px;
+    color: #AAAAAA;;
     width: 100%;
-    text-decoration: none!important;
-    color: white;
+    letter-spacing: 0.2em;
 }
 .place__website {
     display: flex;
+    /*Инструкция для флекса*/
     flex-direction: column;
-    text-decoration: underline;
+    justify-content: space-between;
+    /*Инструкция для грида*/
+    align-self: end;
+    justify-self: start;
+    height: 46px;
+    border-bottom: 1px solid white;
     color: white;
+    text-decoration: none;
+
+    transition: opacity .4s linear;
 }
 
-@media screen and (max-width: 768px) {
+.place__website:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 500px) {
     .place__website {
         display: none;
     }

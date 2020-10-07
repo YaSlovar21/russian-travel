@@ -2,4 +2,24 @@
     position: relative;
     margin: 92px auto 0;
     max-width: 1184px;
+
  }
+
+ @media screen and (min-width:1024px) {
+    .cover {
+        margin-top: 92px;
+    }
+ }
+
+ @media screen and (min-width:768px) {
+    .cover {
+    margin-top: 88px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .cover {
+    margin-top: 64px;
+    }
+}
+

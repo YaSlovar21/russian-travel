@@ -8,19 +8,27 @@
     padding-bottom: 24px;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1279px){
     .footer {
-        max-width: 90vw;
+        max-width: 928px;
         margin: 0 auto;
     }
 }
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:1023px){
     .footer {
-        max-width: 90vw;
+        max-width: 720px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:690px){
+    .footer {
+        max-width: 186px;
+        min-height: 310px;
+        margin: 32px 0 0 16px;
         flex-direction: column;
         align-items: stretch;
+
     }
 }
