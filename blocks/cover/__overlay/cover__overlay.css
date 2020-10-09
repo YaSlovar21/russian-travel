@@ -37,11 +37,11 @@
     bottom: 0;
     right: 0;
     opacity: 0.3;
-    background-color: black;
+    background-color: #2A2C2F;
     z-index: -1;
     transition: opacity .4s ease-in-out;
 }
 
 .cover__overlay:hover::before {
-    opacity: 0.7;
+    opacity: 0.8;
 }

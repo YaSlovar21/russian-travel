@@ -60,6 +60,8 @@
     .photo-grid {
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 90vw;
+        max-width: 288px;
+        margin: 64px auto;
+        grid-gap: 12px;
     }
 }

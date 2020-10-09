@@ -6,8 +6,12 @@
     color: #AAAAAA;
     width: 100%;
     letter-spacing: 0.2em;
+    font-size: 12px;
+    line-height: 1.0;
 }
 .place__website {
+    font-size: 18px;
+    
     display: flex;
     /*Инструкция для флекса*/
     flex-direction: column;
@@ -27,7 +31,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .place__website {
         display: none;
     }

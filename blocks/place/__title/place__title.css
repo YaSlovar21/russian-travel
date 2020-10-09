@@ -8,14 +8,6 @@
     color: #FFFFFF;
     }
 
-@media screen and (max-width:450px) {
-    .place__title {
-        width: 288px;
-        margin: 0 auto;
-        font-size: 32px;
-        line-height: 1.09;
-        }
-    }
 
 @media screen and (max-width: 1023px) {   /*ОТ 768 до 1024*/
     .place__title {
@@ -25,6 +17,13 @@
         line-height: 1.1;
         /*color: #FFFFFF;*/
         }
+}
+
+@media screen and (max-width:767px) {
+    .place__title {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 450px) {

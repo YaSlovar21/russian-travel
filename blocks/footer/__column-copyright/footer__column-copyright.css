@@ -3,7 +3,6 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.14;
     
     text-align: right;
     
@@ -11,7 +10,7 @@
     margin: 0;
     }
 
-@media screen and (max-width:490px) {
+@media screen and (max-width:690px) {
     .footer__column-copyright {
         text-align: left;
     }
