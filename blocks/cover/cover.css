@@ -4,7 +4,7 @@
     max-width: 1184px;
     z-index: 1;
     width: 100%;
-    min-height: calc(0.625*(100vw));
+    min-height: calc(0.625*(99vw));
     background-size: cover;
     background-image: url(../../images/cover-trains.jpg);
     background-repeat: no-repeat;
@@ -13,6 +13,12 @@
     align-items: stretch;
     justify-content: stretch;
 
+ }
+ @media screen and (min-width:1184px) {
+    .cover {
+        max-width: 1184px;
+        min-height: 740px;
+    }
  }
 
  @media screen and (min-width:1024px) {
