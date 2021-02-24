@@ -18,22 +18,19 @@
     .header {
         max-width: 928px;
         margin-bottom: 48px;
-        margin-top: 28px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .header {
         max-width: 720px;
-        margin-bottom: 48px;
-        margin-top: 28px;
+
     }
 }
 
 @media screen and (max-width: 767px) {
     .header {
         max-width: 90vw;
-        margin-bottom: 48px;
         margin-top: 16px;
     }
 }
@@ -41,7 +38,5 @@
 @media screen and (max-width: 420px) {
     .header {
         max-width: 288px;
-        margin-bottom: 48px;
-        margin-top: 16px;
     }
 }

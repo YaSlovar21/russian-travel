@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-.place__paragraph:nth-of-type(2) {
+.place__paragraph:nth-of-type(2+n) {
     margin-top: 24px;
 }
 
