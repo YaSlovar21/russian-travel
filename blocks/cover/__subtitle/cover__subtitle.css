@@ -21,14 +21,9 @@
     .cover__subtitle {
         width: 90%;
 
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
         font-size: 14px;
         line-height: 1.14;
         
-        text-align: center;
         margin-top: 16px;
-        color: #FFFFFF;
     }
 }
