@@ -19,7 +19,7 @@
     /*Инструкция для грида*/
     align-self: end;
     justify-self: start;
-    height: 46px;
+    min-height: 46px;
     border-bottom: 1px solid white;
     color: white;
     text-decoration: none;
