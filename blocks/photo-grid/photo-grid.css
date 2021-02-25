@@ -23,6 +23,7 @@
         max-width: 928px;
         grid-gap: 14px;
         grid-template-columns: repeat(3, 1fr);
+        margin: 92px auto;
     }
 }
 
